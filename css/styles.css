@@ -1,0 +1,129 @@
+* {
+    padding : 0;
+    margin : 0 auto;
+    font-size:25px;
+	
+}
+
+body {
+    background : white;
+    color : black;
+    background-color: #ff3;
+    
+}
+header{
+	
+	background-color: #ff0000;
+	margin: 1px 0 2px 0;
+}
+nav{
+	
+	min-height: 30px;
+	background-color: red;
+	text-align:center;
+	
+	
+}
+ol, ul {
+	list-style: none;
+}
+nav ul{
+	margin: 0 auto;
+	
+}
+
+nav ul li{
+	
+	white-space:pre;
+}
+nav ul li a{
+	font-size: 20px;
+	font-style: oblique;
+	font-weight:800;
+}
+
+article{
+	max-width:700px;
+	margin-bottom: 15px;
+}
+header, section{
+    text-align:center;
+	
+    }
+section{
+    border:2px solid blue;
+    margin:30px 3px 3px 3px;
+    padding-top: 10px;
+    background-color: rgba(225, 220, 186, 0.5);
+    }
+
+h3{
+    color:#742c2c;
+    background-color:#61A288;
+    padding:10px;
+    margin:1px 0px 1px 0px;
+    }
+   
+ section img{
+    max-width:95%;
+	margin: 5px;
+    }
+	
+.oformleniePokupki{
+	margin: 10px 5px 15px 5px;
+}
+
+.dopUsloviya p{
+	font-size:14px;
+}
+.rekviziti{
+	background-color: rgba(77, 77, 43, 0.3);
+	margin: 10px 0 10px 0;
+}
+.kupit{
+	margin: 10px 0 15px 0;
+}
+
+
+footer{
+	min-width:50px;
+	min-height:50px;
+	background-color: #313030;
+	color: #decccc;
+	text-align:center;
+}
+#foterText{
+	max-width: 700px;
+}
+#woprosFooter{
+	background-color: rgba(226,228,228, 0.2);
+}
+.textHeader{
+	background-color: rgba(186, 121, 242, 0.5);
+	padding-bottom: 8px;
+}
+#wazno{
+	color:red;
+	font-size:30px;
+}
+.punct{
+	color:#fffc00;
+}
+.punct_red{
+	color:red;
+	
+}
+
+.otziwiText{ 
+	text-align:start;
+	
+}
+.otziwiText p{
+	margin: 1px 5px 5px 5px;
+	background-color: rgba(87, 71, 71, 0.8);
+	color: #ffffff;
+}
+
+.a_footer{
+	color:red;
+}
