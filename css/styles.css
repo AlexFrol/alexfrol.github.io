@@ -21,20 +21,27 @@ nav{
 	min-height: 30px;
 	background-color: red;
 	text-align:center;
-	
+	position: relative;
 	
 }
 ol, ul {
 	list-style: none;
 }
 nav ul{
-	margin: 0 auto;
-	
+	padding: 0 10px 0 10px;
+	position: table;
+	 left: 43%;
+  max-width:500px;
 }
 
 nav ul li{
-	
+	float:left;
 	white-space:pre;
+}
+nav ul::after{
+	content:"";
+	display:block;
+	clear:both;
 }
 nav ul li a{
 	font-size: 20px;
@@ -127,3 +134,9 @@ footer{
 .a_footer{
 	color:red;
 }
+
+.melkii_text{
+	font-size: 15px;
+}
+
+
